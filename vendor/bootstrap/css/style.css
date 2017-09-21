@@ -1,4 +1,25 @@
+body{
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 .bg-primary {
   background-color: rgb(0, 173, 239) !important;
+}
+
+#tituloAbout{
+  font-size: ;
+  
+}
+
+#bajadaAbout{
+  font-size: 125%;
+}
+
+#textoAbout{
+  font-size: 100%;
+}
+
+.tercerTiempo{
+  width: 100%;
 }

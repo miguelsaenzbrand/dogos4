@@ -34,7 +34,7 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#3dHalf">3rd Half</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -54,6 +54,10 @@
     <section>
       <div class="container">
         <div class="row">
+          <div class="col-12 mx-auto">
+            <img src="img/sponsorsAll.png" class="img-fluid" alt="">
+          </div>
+          <!--
           <div class="col-4 img-fluid">
             <img src="img/sponsors/blueBeerLogoSmall.png" alt="">
           </div>
@@ -62,7 +66,7 @@
           </div>
           <div class="col-4 img-fluid align-self-center">
             <img src="img/sponsors/OBSLogoSmall.png" alt="">
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -71,25 +75,25 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>About us</h2>
-            <p class="lead">Dublin Dogos RFC is a new club formed by expats and Irish players with the aim to foster integration through rugby under the slogan “one club, all countries”.<br><br>
+            <h2 id="tituloAbout">ABOUT US</h2><br>
+            <p id="bajadaAbout" class="lead">Dublin Dogos RFC is a new club formed by expats and Irish players with the aim to foster integration through rugby under the slogan “one club, all countries”.</p><br>
 
-The team functions as a “permanent Barbarian” team, combining talent from different nationalities to compete at the highest level and bring together the expats and rugby communities in Ireland.<br><br>
+<p id="textoAbout">The team functions as a “permanent Barbarian” team, combining talent from different nationalities to compete at the highest level and bring together the expats and rugby communities in Ireland.<br><br>
 
 The year 2017 saw the birth of the Dogos and also the following milestones:
 </p>
             <ul>
-              <li>Deal with Coolmine RFC. Dogos will train and play home matches at Coolmine RFC in Ashtown, one of the finest rugby pitches in Ireland.</li>
-              <li>Affiliation with DCU Rugby. Dogos will be the team for DCU students at a club level. DCU Force will give the Dogos the depth and strength necessary to compete at the highest level.</li>
-              <li>Dogos Opening ceremony. In the form of a Tag Rugby tournament, with +400 attendees and a massive Argentinian ‘asado’ and South African ‘braai’ (BBQ).</li>
-              <li>Leinster league registration. Dogos will compete with two teams in the Leinster Metropolitan League. The first team will compete in the Metro 3 Division and the second team will compete in Metro 11.</li>
+              <li><strong>Deal with Coolmine RFC.</strong> Dogos will train and play home matches at Coolmine RFC in Ashtown, one of the finest rugby pitches in Ireland.</li>
+              <li><strong>Affiliation with DCU Rugby.</strong> Dogos will be the team for DCU students at a club level. DCU Force will give the Dogos the depth and strength necessary to compete at the highest level.</li>
+              <li><strong>Dogos Opening ceremony.</strong> In the form of a Tag Rugby tournament, with +400 attendees and a massive Argentinian ‘asado’ and South African ‘braai’ (BBQ).</li>
+              <li><strong>Leinster league registration.</strong> Dogos will compete with two teams in the Leinster Metropolitan League. The first team will compete in the Metro 3 Division and the second team will compete in Metro 11.</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="services">
+    <section id="">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mx-auto">
@@ -99,12 +103,39 @@ The year 2017 saw the birth of the Dogos and also the following milestones:
       </div>
     </section>
 
-    <section id="contact" class="bg-light">
+    <section id="3dHalf" class="bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
+          <div class="col-lg-6 mx-auto">
+            <h2>THE 3RD ‘HALF’</h2><br>
+              
+            <p>We are introducing a new concept into Irish rugby: the 3rd ‘halves’. This is a social gathering practiced in Argentina after every match, where the home team invites the opposition team to
+              enjoy a post-match meal, furthering camaraderie among clubs irrespective of the result.
+              
+              Dogos will organise 3rd halves after every home match, offering the opposition team a
+              complementary meal at Coolmine RFC.
+              
+              Dogos 3rd halves will include Argentine ‘asado’, a slow-cooked barbecue which will captivate players and attendees, expanding the Dogo concept and associated brands.
+              
+              This unprecedented practice Irish rugby will elicit media attention and increase crowd attendance into the Dogos’ matches.
+              </p>
+          </div>
+          <div class="col-lg-6 mx-auto">
+            <img class="tercerTiempo" src="img/fuego.jpeg" alt="">
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
             <h2>Contact us</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+            <p class="lead">email: INFO@DUBLINDOGOS.COM </p>
+          </div>
+          <div class="col-lg-6 mx-auto">
+            <div id="map" style="width:400px;height:400px"></div>
           </div>
         </div>
       </div>
@@ -113,10 +144,13 @@ The year 2017 saw the birth of the Dogos and also the following milestones:
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Dublin Dogos RFC 2017</p>
       </div>
       <!-- /.container -->
     </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3xmpxpUZwiZCsQhhjEUpkuPE7CAzn6Hgcallback=initMap"
+    async defer></script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -128,6 +162,8 @@ The year 2017 saw the birth of the Dogos and also the following milestones:
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
+
+    
 
   </body>
 
