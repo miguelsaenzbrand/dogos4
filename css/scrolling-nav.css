@@ -11,10 +11,10 @@ header {
 @media (min-width: 992px) {
   header {
     padding: 156px 0 100px;
-     
+
   }
 }
 
 section {
-  padding: 150px 0;
+  padding: 100px 0;
 }

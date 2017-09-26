@@ -16,9 +16,14 @@ body{
   margin-bottom: 10%;
 }
 
+.logoSponsors{
+  width: 40%;
+  margin: 10% auto;
+}
+
 #tituloAbout{
   font-size: ;
-  
+
 }
 
 #bajadaAbout{
@@ -29,6 +34,16 @@ body{
   font-size: 100%;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .tercerTiempo{
   width: 100%;
+}
+
+.iconosFollow{
+  margin-bottom: 20%;
 }
