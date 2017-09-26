@@ -7,6 +7,15 @@ body{
   background-color: rgb(0, 173, 239) !important;
 }
 
+#logoDogoHome{
+  width: 80%;
+}
+
+.thanksSponsors{
+  font-size: 300%;
+  margin-bottom: 10%;
+}
+
 #tituloAbout{
   font-size: ;
   
